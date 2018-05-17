@@ -1,0 +1,10 @@
+#Andy Ho Data Science Profile R Code
+> categories <- c("computer programming", "math", "statistics", "machine learning", "domain expertise", "communication and presentation skills", "data visualization")
+> ranking <- c(3,3,2,1,4,5,1)
+> Andy <- matrix (data = ranking, ncol = 7, byrow = FALSE, dimnames = NULL)
+> cbind(categories, ranking)
+> Andy_Data <- data.frame (categories, ranking)
+> Andy_Data
+> barplot(ranking, main = "Data Science Profile: Andy Ho", xlab ="Categories", ylab ="Ranking", names.arg = categories)
+
+               
